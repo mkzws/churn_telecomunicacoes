@@ -1,4 +1,3 @@
-"""src/ml_project/data.py"""
 
 from typing import Tuple
 import numpy as np

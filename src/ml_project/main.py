@@ -190,6 +190,12 @@ def get_me(current_user: dict = Depends(get_current_user)):
         "role": current_user["role"],
         "message": "Você está autenticado com sucesso!"
     }
+#apenas para retirar o log de 404 do favicon
+from fastapi.responses import Response
+
+@app.get('/favicon.ico', include_in_schema=False)
+async def favicon():
+    return Response(status_code=204)
 
 @app.post("/predict", response_model=ChurnResponse, tags=["Predict"])
 def predict(payload: ClientDataRequest, current_user: dict = Depends(get_current_user)):
@@ -231,7 +237,7 @@ def predict(payload: ClientDataRequest, current_user: dict = Depends(get_current
         if is_churn == 1:
             status_cliente = "Cliente em risco de cancelamento (Churn)"
             nivel_risco = "Alto" if probability > 0.7 else "Moderado"
-            recomendacao = "Recomenda-se oferecer desconto, upgrade de contrato ou contacto preventivo."
+            recomendacao = "Recomenda-se oferecer desconto, upgrade de contrato ou contato preventivo."
         else:
             status_cliente = "Cliente fidelizado / Estável"
             nivel_risco = "Baixo"

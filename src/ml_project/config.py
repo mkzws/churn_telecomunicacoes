@@ -1,5 +1,3 @@
-"""src/ml_project/config.py"""
-
 from pathlib import Path
 
 # Direitórios principais

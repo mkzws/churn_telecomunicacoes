@@ -1,5 +1,3 @@
-"""src/ml_project/train.py"""
-
 import sys
 from ml_project.data import load_raw_data, prepare_data
 from ml_project.model import evaluate_model, save_model, train_model

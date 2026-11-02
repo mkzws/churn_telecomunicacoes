@@ -38,6 +38,9 @@ Este canvas serve como o artefato central de planejamento estratégico, técnico
 ### 7. Recursos Necessários
 *   **Equipe:** Cientistas de Dados (experimentação e validação), Engenheiros de Machine Learning (módulos produtivos e API) e Especialistas de CRM (validação de regras de negócio).
 *   **Tecnologias e Ferramentas:** Ecossistema *Python 3*, *Scikit-Learn* (modelagem), *FastAPI* (serviço), *Pytest* (testes automatizados de qualidade) e *Git/GitHub* (versionamento).
+*   **Mapeamento de Stakeholders:**
+*        **Diretoria / C-Level (Patrocinadores)**: Focados no impacto financeiro, redução do churn rate global e proteção da receita recorrente (MRR).
+*        **Equipe de Customer Success / CRM (Utilizadores Operacionais)**: Necessitam de alertas preditivos claros, acionáveis e integrados para abordar os clientes de forma preventiva.
 
 ### 8. Riscos
 *   **Risco Técnico (Overfitting):** Algoritmos de árvore futuros podem se sobreajustar ao comportamento histórico, perdendo a capacidade de generalizar para novos assinantes.

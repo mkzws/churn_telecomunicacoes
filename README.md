@@ -6,7 +6,7 @@ Este repositório contém o desenvolvimento do **Tech Challenge (Fase 1)** da p�
 
 ## 🎥 Vídeo de Apresentação (Método STAR)
 Conforme exigido pelo edital, a apresentação executiva e técnica do projeto (com duração máxima de 5 minutos) está disponível através do link abaixo:
-*   👉 **[LINK PARA O VÍDEO DE APRESENTAÇÃO - YOUTUBE/VIMEO]**
+*   👉 
 
 ### 📝 Resumo Executivo (Estrutura STAR):
 *   **Situation (Situação):** A operadora de telecomunicações FIAPMobile enfrenta uma perda acelerada de clientes ativos, o que impacta severamente a receita recorrente mensal (MRR).
@@ -43,7 +43,7 @@ Siga os passos abaixo para clonar o repositório, configurar o ambiente virtual 
 ### 1. Clonar o Repositório
 Abra o seu terminal e execute o comando:
 ```bash
-git clone https://github.com
+git clone https://github.com/mkzws/churn_telecomunicacoes
 cd SEU_REPOSITORIO
 ```
 
@@ -73,7 +73,7 @@ Para abrir o laboratório de testes e rodar a análise exploratória ou o treina
 ```bash
 jupyter notebook
 ```
-Navegue até a pasta `notebooks/` e abra o arquivo `etapa1_eda_baseline.ipynb`. Execute as células sequencialmente (`Shift + Enter`).
+Navegue até a pasta `notebooks/` e abra o arquivo `eda_regressao.ipynb`. Execute as células sequencialmente (`Shift + Enter`).
 
 ---
 

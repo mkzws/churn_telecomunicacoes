@@ -1,5 +1,3 @@
-"""src/ml_project/api.py"""
-
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
 import pandas as pd
